@@ -28,25 +28,30 @@
       </nav>
     </header>
     <!-- Main Section -->
-    <main class="main-section">
+    <main class="main">
       <!-- Learning Section -->
-      <div class="container learning-section">
-        <img src="./resources/images/banner.jpg" />
-        <h1>Learn something new everyday</h1>
-        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-        <div class="button">
-          <a href="#">Start here</a>
+      <div class="container">
+        <div class="container learning">
+          <img src="./resources/images/banner.jpg" class="hero"/>
+        </div>
+        <div class="container column banner">
+          <h1>Learn something new everyday</h1>
+          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+          <div class="button">
+            <a href="#">Start here</a>
+          </div>
         </div>
       </div>
+
       <div class="container">
-        <!-- Practice Section -->
-        <div class="practice-section">
-          <img src="./resources/images/information-main.jpg" />
+        <!-- Information Section -->
+        <div class="container column practice">
+          <img src="./resources/images/information-main.jpg" class="hero"/>
           <h2>It doesn't hurt to keep practicing</h2>
           <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, effictur dolor consequat, tristique ligula."</p>
         </div>
         <!-- Info Section -->
-        <div class="info-section">
+        <div class="container column information">
           <div class="info">
             <div class="desktop-image">
               <img src="./resources/images/information-orientation.jpg" />
@@ -82,42 +87,55 @@
           </div>
         </div>
       </div>
+
       <!-- Courses Section -->
-      <div class="container courses-section">
+      <div class="container">
         <h2>Start learning</h2>
-        <div class="courses">
+        <div class="container courses">
           <div class="course">
-            <img src="./resources/images/course-software.jpg" />
+            <div class="image-container">
+              <img src="./resources/images/course-software.jpg" />
+            </div>
             <h4>Software engineering</h4>
             <p>COURSES</p>
             <p>Web Development, Mobile Development, iOT, APIs</p>
           </div>
           <div class="course">
-            <img src="./resources/images/course-computer-art.jpg" />
+            <div class="image-container">
+              <img src="./resources/images/course-computer-art.jpg" />
+            </div>
             <h4>Computer art</h4>
             <p>COURSES</p>
             <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
           </div>
           <div class="course">
-            <img src="./resources/images/course-design.jpg" />
+            <div class="image-container">
+              <img src="./resources/images/course-design.jpg" />
+            </div>
             <h4>Design</h4>
             <p>COURSES</p>
             <p>User Experience Design, User Research, Visual Design</p>
           </div>
           <div class="course">
-            <img src="./resources/images/course-data.jpg" />
+            <div class="image-container">
+              <img src="./resources/images/course-data.jpg" />
+            </div>
             <h4>Data</h4>
             <p>COURSES</p>
             <p>Data Science, Big Data, SQL, Data Visualization</p>
           </div>
           <div class="course">
-            <img src="./resources/images/course-business.jpg" />
+            <div class="image-container">
+              <img src="./resources/images/course-business.jpg" />
+            </div>
             <h4>Business</h4>
             <p>COURSES</p>
-            <p>WProduct Development, Business Development, Startup</p>
+            <p>Product Development, Business Development, Startup</p>
           </div>
           <div class="course">
-            <img src="./resources/images/course-marketing.jpg" />
+            <div class="image-container">
+              <img src="./resources/images/course-marketing.jpg" />
+            </div>
             <h4>Marketing</h4>
             <p>COURSES</p>
             <p>Analytics, Content Marketing, Mobile Marketing</p>
@@ -125,9 +143,9 @@
         </div>
       </div>
       <!-- Thesis Section -->
-      <div class="container">
+      <div class="container thesis">
         <h2>Thesis exhibit</h2>
-        <div class="thesis-section">
+        <div class="container video">
           <!-- Video -->
           <video autoplay muted loop>
             <source src="./resources/videos/thesis.mp4" type="video/mp4">
@@ -135,7 +153,7 @@
           <h2>Reimagine urban</h2>
           <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, effictur dolor consequat, tristique ligula."</p>
         </div>
-        <div class="thesis-support">
+        <div class="container column thesis-support">
           <div class="support">
             <img src="./resources/images/thesis-fisma.jpg" />
             <h4>Fisma: Design</h4>

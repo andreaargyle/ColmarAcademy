@@ -14,6 +14,20 @@ body {
   display: flex;
   margin: auto;
   align-content: center;
+  border: 1px dotted #3C3C3C;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.desktop-image {
+  width: 35%;
+  margin: 1rem 1rem;
+}
+
+.mobile-image {
+  display: none;
 }
 
 /* Header */
@@ -36,9 +50,6 @@ header {
 .logo img {
   min-height: 3rem;
 }
-.name {
-  align-items: center;
-}
 
 .bold {
   font-weight: 700;
@@ -52,4 +63,49 @@ nav li {
 
 .mobile-nav {
   display: none;
+}
+
+
+/* Learning Section */
+
+.learning {
+  width: 50%;
+}
+
+.hero .learning {
+  padding: 2rem 1.5rem;
+  width: 50%;
+}
+
+
+/* Information Section */
+
+.practice {
+  width: 50%;
+}
+
+.hero .practice {
+  padding: 2rem 1.5rem;
+  width: 90%;
+}
+
+.information {
+  width: 26.4375rem;
+}
+
+
+/* Courses Section */
+
+.courses {
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.course {
+  max-width: 30%;
+}
+
+.image-container {
+  display: flex;
+  width: 90%;
 }
