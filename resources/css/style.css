@@ -30,6 +30,37 @@ body {
   display: none;
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+}
+
 /* Header */
 
 header {
@@ -68,28 +99,27 @@ nav li {
 
 /* Learning Section */
 
-.learning {
-  width: 50%;
+#learning .banner-image {
 }
 
-.hero .learning {
+#learning .hero {
   padding: 2rem 1.5rem;
-  width: 50%;
+  width: 60%;
+  height: auto;
 }
 
 
 /* Information Section */
 
-.practice {
-  width: 50%;
+#information {
+  align-items: flex-start;
 }
-
-.hero .practice {
+#information .hero {
   padding: 2rem 1.5rem;
   width: 90%;
 }
 
-.information {
+.info-boxes {
   width: 26.4375rem;
 }
 
@@ -108,4 +138,10 @@ nav li {
 .image-container {
   display: flex;
   width: 90%;
+}
+
+/* Thesis */
+
+video {
+  width: 100%;
 }
