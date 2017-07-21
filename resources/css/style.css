@@ -33,6 +33,7 @@ body {
 h1 {
   font-size: 2rem;
   font-weight: 900;
+  line-height: 1.8rem;
 }
 
 h2 {
@@ -59,6 +60,16 @@ h5 {
 
 p {
   font-size: 1rem;
+}
+
+.banner-image {
+  width: 60%;
+  height: auto;
+}
+
+.banner-image img {
+  width: 100%;
+  height: auto;
 }
 
 /* Header */
@@ -97,27 +108,40 @@ nav li {
 }
 
 
+
 /* Learning Section */
 
-#learning .banner-image {
-}
-
-#learning .hero {
+#learning {
   padding: 2rem 1.5rem;
-  width: 60%;
-  height: auto;
 }
 
+.learning-text {
+  margin-left: 2.5rem;
+}
+
+#learning h4 {
+  margin: 2rem 0 1.5rem 0;
+}
+
+.button {
+  background-color: #3C3C3C;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.button a {
+  color: #fff;
+  text-decoration: none;
+}
 
 /* Information Section */
 
 #information {
-  align-items: flex-start;
-}
-#information .hero {
   padding: 2rem 1.5rem;
-  width: 90%;
 }
+
+
 
 .info-boxes {
   width: 26.4375rem;
