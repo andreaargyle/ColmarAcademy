@@ -29,34 +29,44 @@ body {
   display: none;
 }
 
+h1, h2, h3 {
+  font-family: 'Cormorant', 'Garamond', serif;
+  font-weight: 700;
+}
+
 h1 {
-  font-size: 2rem;
-  font-weight: 900;
-  line-height: 1.8rem;
+  font-size: 2.75rem;
+  line-height: 1.2;
 }
 
 h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 2.25rem;
   text-align: center;
-  line-height: 3;
+  line-height: 2;
 }
 
 h3 {
-  font-size: 1.4rem;
-  font-weight: 700;
+  font-size: 2.0rem;
   line-height: 3;
 }
 
 
 h4 {
-  font-size: 1.25rem;
+  font-family: 'Cormorant', 'Garamond', serif;
+  font-size: 1.75rem;
   font-weight: 600;
+}
+
+h5, h6, p, a, span {
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
 }
 
 h5 {
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
+  line-height: 3;
+  font-style: italic;
+  color: #747F7D;
 }
 
 h6 {
@@ -65,12 +75,15 @@ h6 {
 
 p {
   font-size: 1rem;
+  color: #747F7D;
+  font-weight: 200;
 }
 
 a {
   color: #666;
   text-decoration: none;
   padding: 0 0.5rem 0 0.5rem;
+  font-weight: 200;
 }
 
 .banner-image {
@@ -140,6 +153,10 @@ nav li:hover {
   background-color: #C6E8E0;
 }
 
+#learning .banner-image {
+  padding: 3rem 0 0 0;
+}
+
 .learning-text {
   margin-left: 2.5rem;
 }
@@ -148,6 +165,7 @@ nav li:hover {
   margin: 2rem 0 1.5rem 0;
   color: #747F7D;
   font-weight: 200;
+  line-height: 1.2;
 }
 
 .button {
@@ -209,6 +227,12 @@ nav li:hover {
   flex-direction: column;
   line-height: 1.5;
   margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+.info a {
+  padding: 0;
+  font-style: italic;
 }
 
 /* Courses Section */
@@ -251,6 +275,14 @@ nav li:hover {
 
 video {
   width: 100%;
+}
+
+#thesis .banner-image {
+  padding-top: 0;
+}
+
+#thesis .info-boxes {
+  justify-content: flex-start;
 }
 
 /* Footer */
