@@ -62,7 +62,7 @@ h5, h6, p, a, span {
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 500;
   line-height: 3;
   font-style: italic;
@@ -226,8 +226,8 @@ nav li:hover {
 .info .right {
   flex-direction: column;
   line-height: 1.5;
-  margin-left: 1rem;
-  padding-left: 1rem;
+  margin: 0 0.5rem 0 1.75rem;
+  padding: 0 0.5rem 0 1.75rem;
 }
 
 .info a {
@@ -297,4 +297,9 @@ footer {
 
 footer a {
   padding-left: 2rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1024px) {
+
 }
