@@ -63,6 +63,7 @@ h5 {
 h6 {
   line-height: 2;
 }
+
 p {
   font-size: 1rem;
 }
@@ -182,6 +183,7 @@ nav li {
   line-height: 1.5;
   margin-left: 1em;
 }
+
 /* Courses Section */
 
 #courses {
@@ -218,4 +220,20 @@ nav li {
 
 video {
   width: 100%;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.75em;
+  border-top: 1px solid #e6e6e6;
+  font-size: 0.75em;
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
+  padding-left: 2em;
 }
