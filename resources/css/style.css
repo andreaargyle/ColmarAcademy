@@ -46,7 +46,7 @@ h2 {
 h3 {
   font-size: 1.4rem;
   font-weight: 700;
-  line-height: 2;
+  line-height: 3;
 }
 
 
@@ -117,6 +117,7 @@ nav li {
 
 #learning {
   padding: 2rem 1.5rem;
+  background-color: #e8e8e8;
 }
 
 .learning-text {
@@ -187,7 +188,7 @@ nav li {
 /* Courses Section */
 
 #courses {
-  background-color: #C3C3C3;
+  background-color: #e8e8e8;
   line-height: 1.5;
 }
 
@@ -204,10 +205,10 @@ nav li {
 }
 
 .course {
-  max-width: 30%;
+  max-width: 28%;
   height: 19em;
   margin-bottom: 2em;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 1em 1em 1.5em 1em;
 }
 
