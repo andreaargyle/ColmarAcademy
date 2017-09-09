@@ -68,6 +68,11 @@ p {
   font-size: 1rem;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
 .banner-image {
   width: 60%;
   height: auto;
@@ -109,6 +114,10 @@ nav li {
   padding: 1rem;
 }
 
+nav li:hover {
+  background-color: #e5e5e5;
+}
+
 .mobile-nav {
   display: none;
 }
@@ -133,11 +142,16 @@ nav li {
   text-align: center;
   padding: 1rem;
   border-radius: 0.25rem;
+  opacity: 0.75;
+}
+
+.button:hover {
+  opacity: 1;
+  box-shadow: 0.25em 0.25em 0.25em #a5a5a5;
 }
 
 .button a {
   color: #fff;
-  text-decoration: none;
 }
 
 /* Information Section */
@@ -212,6 +226,10 @@ nav li {
   padding: 1em 1em 1.5em 1em;
 }
 
+.course:hover {
+  box-shadow: 0.25em 0.25em 0.25em #a5a5a5;
+}
+
 .course img {
   height: auto;
   width: 100%;
@@ -234,7 +252,5 @@ footer {
 }
 
 footer a {
-  color: #000;
-  text-decoration: none;
   padding-left: 2em;
 }
