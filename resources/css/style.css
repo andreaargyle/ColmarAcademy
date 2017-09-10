@@ -205,8 +205,22 @@ nav li:hover {
   #learning {
     padding-top: 4rem;
   }
-
+  #learning.container {
+    flex-direction: column;
+  }
+  #learning .banner-image {
+    width: 100%;
+    padding: 0;
+  }
+  .learning-text {
+    text-align: center;
+    margin: 0;
+  }
+  #learning h4 {
+    font-size: 1.5rem;
+  }
 }
+
 /* Information Section */
 
 #information {
