@@ -389,9 +389,9 @@ video {
   #thesis .banner-image {
     width: 100%;
     padding: 0;
-    
   }
 }
+
 /* Footer */
 
 footer {
@@ -404,4 +404,12 @@ footer {
 
 footer a {
   padding-left: 2rem;
+}
+
+/* Media Queries - Footer */
+
+@media only screen and (max-width: 900px) {
+  .desktop-only {
+    display: none;
+  }
 }
