@@ -364,7 +364,6 @@ nav li:hover {
     color: #FFF;
     padding-left: 1rem;
   }
-
 }
 
 /* Thesis */
@@ -381,6 +380,18 @@ video {
   justify-content: flex-start;
 }
 
+/* Media Queries - Thesis */
+
+@media only screen and (max-width: 900px) {
+  #thesis .info-boxes, #thesis h3, #thesis p {
+    display: none;
+  }
+  #thesis .banner-image {
+    width: 100%;
+    padding: 0;
+    
+  }
+}
 /* Footer */
 
 footer {
