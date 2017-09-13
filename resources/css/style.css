@@ -152,6 +152,10 @@ nav li:hover {
   .desktop-nav, .logo {
     display: none;
   }
+  nav {
+    display: flex;
+    width: 100%;
+  }
   .mobile-nav {
     width: 100%;
     display: flex;
